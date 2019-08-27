@@ -10,11 +10,12 @@ echo "####################################"
 echo "Write your commit comment!"
 echo "####################################"
 
-read input
+#read input
 
 # Committing to the local repository with a message containing the time details and commit text
 
-git commit -m "$input"
+#git commit -m "$input"
+git commit -m "new version"
 
 # Push the local files to github
 
