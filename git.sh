@@ -1,5 +1,8 @@
 # checking if I have the latest files from github
 echo "Checking for newer files online first"
+
+cd x86_64 && repo-add netinstall_iso_repo.db.tar.gz *pkg.tar.xz && cd ..
+
 git pull
 
 # Below command will backup everything inside the project folder
